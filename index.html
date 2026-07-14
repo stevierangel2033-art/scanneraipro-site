@@ -4,7 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Scanner AI Pro — PDF Document Scanner for iPhone</title>
-<meta name="description" content="Scan any document with your iPhone. Auto-capture, edge detection, OCR, signatures, and a real PDF editor. Export to PDF, Word, Excel, PowerPoint, JPG or text.">
+<meta name="description" content="Scan any document with your iPhone. Auto-capture, edge detection, on-device OCR, signatures, and a real PDF editor. Export to PDF, Word, Excel, PowerPoint, JPG or text.">
+<meta name="theme-color" content="#34CF9B">
+
+<meta property="og:title" content="Scanner AI Pro — PDF Document Scanner for iPhone">
+<meta property="og:description" content="Paper in, clean PDF out. Then actually edit it — sign, redact, retype the text on the page, export to any format.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://scanneraipro.com/">
+<meta property="og:image" content="https://scanneraipro.com/images/scan.jpg">
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,79 +23,164 @@
     <span>Scanner AI&nbsp;Pro</span>
   </a>
   <nav>
+    <a href="#how">How it works</a>
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
     <a href="/support.html">Support</a>
-    <a href="/privacy.html">Privacy</a>
-    <a href="/terms.html">Terms</a>
   </nav>
 </header>
 
 <main>
 
-<section class="hero">
-  <h1>Your iPhone is already a scanner.<br>This makes it a good one.</h1>
-  <p class="lead">Scanner AI Pro turns paper into clean, sharp PDFs in a couple of seconds — then lets you actually edit them. Sign, redact, retype the text that's printed on the page, and export to whatever format you need.</p>
-  <p class="cta-note">Coming soon to the App Store.</p>
+<!-- ================= HERO ================= -->
+<section class="hero-x">
+  <div class="hero-x__copy reveal">
+    <p class="eyebrow">On-device OCR · iPhone</p>
+    <h1>Your iPhone is already a scanner.<br><em>This makes it a good one.</em></h1>
+    <p class="lead">Point it at a page. Scanner AI Pro finds the edges, waits for your hand to settle, and hands you a clean, sharp PDF — then lets you actually edit it. Sign it, redact it, retype the text that's printed on it, and export to whatever format you need.</p>
+    <div class="hero-x__cta">
+      <span class="pill">Coming soon to the App Store</span>
+      <a class="ghost-link" href="#how">See how it works &darr;</a>
+    </div>
+    <ul class="hero-x__facts">
+      <li><strong>On-device</strong><span>Nothing is uploaded</span></li>
+      <li><strong>No account</strong><span>Open it and scan</span></li>
+      <li><strong>6 formats</strong><span>PDF, DOC, XLS, PPT, JPG, TXT</span></li>
+    </ul>
+  </div>
+  <div class="hero-x__art reveal">
+    <div class="stage">
+      <img src="images/scan.jpg" width="720" height="960" fetchpriority="high" decoding="async"
+           alt="Scanner AI Pro capturing a printed quarterly report, with live edge detection highlighting the page.">
+    </div>
+  </div>
 </section>
 
-<section class="shots" aria-label="Screenshots">
-  <ul class="shot-strip">
-    <li>
-      <img src="images/scan.jpg" width="720" height="960" loading="lazy" decoding="async"
-           alt="Scanner AI Pro capturing a printed report, with live edge detection outlining the page.">
-      <span>Scan to PDF, JPG or TXT</span>
+<!-- ================= HOW IT WORKS ================= -->
+<section class="how" id="how">
+  <h2 class="section-title reveal">Paper in. PDF out. Three seconds.</h2>
+  <ol class="steps">
+    <li class="reveal">
+      <span class="step-n">01</span>
+      <h3>Point</h3>
+      <p>A wide-angle view means you don't have to hold your phone up by your forehead to fit a sheet of A4. Live edge detection finds the page while you're still moving.</p>
     </li>
-    <li>
+    <li class="reveal">
+      <span class="step-n">02</span>
+      <h3>Capture</h3>
+      <p>Auto-capture waits until the whole document is in frame and your hand is steady, then shoots at full sensor resolution and flattens the perspective.</p>
+    </li>
+    <li class="reveal">
+      <span class="step-n">03</span>
+      <h3>Work on it</h3>
+      <p>The scan opens as a real document, not a photo. Every word on it has already been read, so you can search it, retype it, or export it as text.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<div id="features">
+
+<section class="alt">
+  <div class="alt__art reveal">
+    <div class="stage stage--sm">
       <img src="images/edit.jpg" width="720" height="960" loading="lazy" decoding="async"
-           alt="A signature and typed text being placed directly onto a scanned letter.">
-      <span>Edit and sign PDFs</span>
-    </li>
-    <li>
+           alt="A drawn signature and typed text being placed directly onto a scanned letter.">
+    </div>
+  </div>
+  <div class="alt__copy reveal">
+    <p class="eyebrow">Edit &amp; sign</p>
+    <h2>A PDF editor, not a text box.</h2>
+    <p>Open any document and work directly on the page. Add text, drop in an image or a logo, place a signature, or hide a block of sensitive information. Pinch to zoom in on the small print.</p>
+    <p>Draw your signature with a finger, drag it exactly where it belongs, resize it — and it's baked into the PDF. No printing, no scanning back in.</p>
+  </div>
+</section>
+
+<section class="alt alt--flip">
+  <div class="alt__art reveal">
+    <div class="stage stage--sm">
       <img src="images/extract.jpg" width="720" height="960" loading="lazy" decoding="async"
-           alt="Recognized text from a scan being selected and retyped in place.">
-      <span>Extract and edit any text</span>
-    </li>
-    <li>
+           alt="Recognized text from a scanned page being selected and retyped in place.">
+    </div>
+  </div>
+  <div class="alt__copy reveal">
+    <p class="eyebrow">Recognize &amp; retype</p>
+    <h2>Change what the page says.</h2>
+    <p>Tap a line of recognized text and retype it in place. The original is covered with the page's own background colour, so the edit looks like it was always there.</p>
+    <p>Text recognition runs on Apple's Vision framework, on your phone. The document never leaves the device to be read.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="alt__art reveal">
+    <div class="stage stage--sm">
       <img src="images/convert.jpg" width="720" height="960" loading="lazy" decoding="async"
-           alt="Export options showing PDF, JPG, DOC, TXT and XLS formats.">
-      <span>Convert to multiple formats</span>
-    </li>
-    <li>
+           alt="Export sheet offering PDF, JPG, DOC, TXT and XLS formats.">
+    </div>
+  </div>
+  <div class="alt__copy reveal">
+    <p class="eyebrow">Export</p>
+    <h2>Out to anything.</h2>
+    <p>PDF, JPG, plain text, Word, Excel or PowerPoint. The text-based formats are built from the words recognized in your scan — so you get something you can actually edit, not a picture of a document in a .docx wrapper.</p>
+    <p>Reduce the file size, set a password, or zip a whole batch on the way out.</p>
+  </div>
+</section>
+
+<section class="alt alt--flip">
+  <div class="alt__art reveal">
+    <div class="stage stage--sm">
       <img src="images/share.jpg" width="720" height="960" loading="lazy" decoding="async"
-           alt="A finished document being shared by email or a cloud link.">
-      <span>Share via email and cloud</span>
-    </li>
-    <li>
+           alt="A finished document being shared by email or as a cloud link.">
+    </div>
+  </div>
+  <div class="alt__copy reveal">
+    <p class="eyebrow">Share</p>
+    <h2>Send it before you've stood up.</h2>
+    <p>Hand the finished file straight to Mail, Messages, Files, or any cloud app you already use. Share a link, or send the document itself.</p>
+    <p>Whatever you pass it to, that app's rules take over from there — we're not in the middle of it.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="alt__art reveal">
+    <div class="stage stage--sm">
       <img src="images/digitize.jpg" width="720" height="960" loading="lazy" decoding="async"
            alt="An ID card being captured and cropped into a clean digital copy.">
-      <span>Digitize ID cards and passports</span>
-    </li>
-  </ul>
+    </div>
+  </div>
+  <div class="alt__copy reveal">
+    <p class="eyebrow">ID &amp; passports</p>
+    <h2>The awkward ones, too.</h2>
+    <p>ID cards, passports, receipts, business cards. Small, glossy, badly lit things that a flatbed scanner would fight you over.</p>
+    <p>Both sides onto one page, cropped square, glare knocked down.</p>
+  </div>
 </section>
 
-<section class="features">
-  <div class="feature">
-    <h3>Scans that don't look scanned</h3>
-    <p>A wide-angle camera view means you don't have to hold your phone up by your forehead to fit a sheet of A4. Live edge detection finds the page, auto-capture waits until the whole document is in frame and your hand is steady, then shoots at full sensor resolution and flattens the perspective.</p>
-  </div>
-  <div class="feature">
-    <h3>A PDF editor, not a text box</h3>
-    <p>Open any document and work directly on the page. Add text, drop in an image or logo, place a signature, or hide a block of sensitive information. Pinch to zoom in on small print. Tap a line of recognized text and retype it in place — the original is covered with the page's own background colour so the edit looks like it was always there.</p>
-  </div>
-  <div class="feature">
-    <h3>Sign it and send it</h3>
-    <p>Draw your signature with a finger, drag it exactly where it belongs, resize it, and it's baked into the PDF. No printing, no scanning back in.</p>
-  </div>
-  <div class="feature">
-    <h3>Export to anything</h3>
-    <p>PDF, JPG, plain text, Word, Excel, or PowerPoint. Text-based formats are built from the text recognized in your scan, so you get something you can actually edit — not a picture of a document.</p>
-  </div>
-  <div class="feature">
-    <h3>Search everything</h3>
-    <p>Every scan is read with on-device text recognition, so you can find a document by what's written inside it, not just what you named it. Organize with folders, star what matters.</p>
-  </div>
-  <div class="feature">
-    <h3>Private by design</h3>
-    <p>Scans, text recognition, and documents all stay on your device. We don't run servers that hold your paperwork, because we don't want to. <a href="/privacy.html">Read the policy</a>.</p>
+</div><!-- /#features -->
+
+<!-- ================= PRIVACY BAND ================= -->
+<section class="band reveal">
+  <h2>Your paperwork stays on your phone.</h2>
+  <p>Scans, recognized text, and finished documents are stored on the device and processed there. We don't run servers that hold your documents, because we don't want to be responsible for them. There's no account to make, no analytics SDK, no ad identifier, and nothing to opt out of.</p>
+  <p class="band__link"><a href="/privacy.html">Read the privacy policy</a></p>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section class="pricing" id="pricing">
+  <h2 class="section-title reveal">One plan. No free tier.</h2>
+  <div class="price-card reveal">
+    <p class="price-card__name">Weekly</p>
+    <p class="price-card__num">$7.79<span>/week</span></p>
+    <ul>
+      <li>Unlimited scanning</li>
+      <li>On-device text recognition</li>
+      <li>Full PDF editor, signatures &amp; redaction</li>
+      <li>Export to PDF, DOC, XLS, PPT, JPG, TXT</li>
+      <li>Everything, from the moment you subscribe</li>
+    </ul>
+    <p class="price-card__terms">
+      Auto-renewing subscription, billed through your Apple&nbsp;ID. It renews each week unless cancelled at least 24 hours before the period ends. Manage or cancel any time in your Apple&nbsp;ID settings. Prices in other regions vary.
+    </p>
   </div>
 </section>
 
@@ -101,6 +194,23 @@
   <p>&copy; 2026 Scanner AI Pro</p>
   <p><a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Use</a> · <a href="/support.html">Support</a></p>
 </footer>
+
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var els = document.querySelectorAll('.reveal');
+  if (reduce || !('IntersectionObserver' in window)) {
+    els.forEach(function (el) { el.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+  els.forEach(function (el) { io.observe(el); });
+})();
+</script>
 
 </body>
 </html>
